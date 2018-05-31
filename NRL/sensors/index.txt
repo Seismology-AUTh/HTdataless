@@ -1,0 +1,5 @@
+[Main]
+question = "Select the sensor manufacturer"
+
+[Skip and go directly to AUTh sensors]
+path = "auth-sensors.txt"

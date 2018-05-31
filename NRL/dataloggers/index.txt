@@ -1,0 +1,5 @@
+[Main]
+question = "Select the datalogger manufacturer"
+
+[Skip and go directly to AUTh dataloggers]
+path = "auth-dataloggers.txt"

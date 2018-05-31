@@ -1,0 +1,6 @@
+[Main]
+question = "Select sensor"
+
+[Guralp CMG-3ESP/100s]
+description="Guralp CMG-3ESP/100s"
+resp="CMG-3ESP-AUTH_settings"

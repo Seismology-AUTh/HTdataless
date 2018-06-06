@@ -6,7 +6,7 @@
 #                                                                             #
 # Displays a simple report of the state of the network at a given date and    #
 # time. The response information is expected to be found in the directory     #
-# ../HTdataless in files named *.dataless.                                    #
+# ../HTdataless_full_history in files named *.dataless.                       #
 # If a date/time is not given, it is set to the present time. It is assumed   #
 # that there is only one vertical channel per station at any time.            #
 #                                                                             #
@@ -32,9 +32,10 @@ if (len(sys.argv)) > 1:
 else:
     datetime = UTCDateTime.now()
 
-inv_dir = glob.glob("../HTdataless/*.dataless")
+inv_dir = glob.glob("../HTdataless_full_history/*.dataless")
 if not inv_dir:
-    sys.exit("No .dataless files found in the directory ../HTdataless")
+    sys.exit("No .dataless files found in the directory " +
+             "../HTdataless_full_history")
 
 datetime_str = datetime.isoformat()
 

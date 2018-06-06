@@ -7,7 +7,8 @@
 # Plots the combined response of the vertical component of the seismometer    #
 # and digitizer that were installed at a given station at a given date and    #
 # time. The response information is expected to be found in the directory     #
-# ../HTdataless in the file HT.sta.dataless, where sta is the station code.   #
+# ../HTdataless_full_history in the file HT.sta.dataless, where sta is the    #
+# station code.                                                               #
 # If a date/time is not given, it is set to the present time. It is assumed   #
 # that there is only one vertical channel per station at any time.            #
 #                                                                             #
@@ -37,7 +38,7 @@ else:
 t0str=t0.isoformat()
 
 try:
-    inv=read_inventory("../HTdataless/HT.{:s}.dataless".format(sta),
+    inv=read_inventory("../HTdataless_full_history/HT.{:s}.dataless".format(sta),
                                                         format="SEED")
 except:
     sys.exit("No response information found for station {:s}".format(sta))

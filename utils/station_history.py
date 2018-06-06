@@ -5,8 +5,8 @@
 # Usage: python station_history.py                                            #
 #                                                                             #
 # Displays a brief history of changes in a station. The information is        #
-# expected to be found in the file ../HTdataless/HT.sta.dataless where sta is #
-# the station code.                                                           #
+# expected to be found in the file                                            #
+# ../HTdataless_full_history/HT.sta.dataless where sta is the station code.   #
 # It is assumed that there is only one vertical channel per station at any    #
 # time.                                                                       #
 #                                                                             #
@@ -26,7 +26,7 @@ if (len(sys.argv) < 2 or len(sys.argv) > 2 ):
 sta=sys.argv[1]
 
 
-inv_file = "../HTdataless/HT.{:s}.dataless".format(sta)
+inv_file = "../HTdataless_full_history/HT.{:s}.dataless".format(sta)
 
 try:
     inv=read_inventory(inv_file,format="SEED")

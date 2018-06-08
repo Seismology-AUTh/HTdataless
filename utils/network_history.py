@@ -6,7 +6,7 @@
 #                                                                             #
 # Displays a brief history of changes in all stations of the network. The     #
 # information is expected to be found in the directory                        #
-# ../HTdataless_full_history in files named *.dataless.                       # 
+# ../HTdataless_AUTh in files named *.dataless.                               # 
 # It is assumed that there is only one vertical channel per station at any    #
 # time.                                                                       #
 #                                                                             #
@@ -23,10 +23,10 @@ import glob
 if (len(sys.argv)) > 1:
     sys.exit("Usage: {:s}".format(sys.argv[0]))
 
-inv_dir = glob.glob("../HTdataless_full_history/*.dataless")
+inv_dir = glob.glob("../HTdataless_AUTh/*.dataless")
 if not inv_dir:
     sys.exit("No .dataless files found in the directory"+
-             " ../HTdataless_full_history")
+             " ../HTdataless_AUTh")
 
 print "\nNetwork history\n"
 print ("{:^19.19s} {:^19.19s} {:3.3s} {:6.6s} {:40.40s} {:^10.10s} "

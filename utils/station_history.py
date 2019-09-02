@@ -33,12 +33,12 @@ try:
 except:
     sys.exit("File not found: {:s}".format(inv_file))
 
-print "\nStation history\n"
-print ("{:^19.19s} {:^19.19s} {:3.3s} {:6.6s} {:40.40s} {:^10.10s} "
+print ("\nStation history\n")
+print (("{:^19.19s} {:^19.19s} {:3.3s} {:6.6s} {:40.40s} {:^10.10s} "
        "{:^11.11s} {:^6.6s} {:2.2s} {:>4.4s} {:50.50s}").format(
        "start", "end", "net", "sta", "description", "lat", "lon",
-       "elev", "ch", "sps", "instrumentation")
-print "-"*180
+       "elev", "ch", "sps", "instrumentation"))
+print ("-"*180)
 
 
 inv=inv.select(station=sta, channel="*Z")
@@ -49,8 +49,8 @@ for network in inv:
          for item in items:
              if item[0]=="stations":
                  sta_long=item[1][0]
-                 i0 = string.find(sta_long,"(") + 1
-                 i1 = string.rfind(sta_long,")")
+                 i0 = sta_long.find("(") + 1
+                 i1 = sta_long.rfind(")")
                  sta_long=sta_long[i0:i1]
          for channel in station:
              net = network.code
@@ -71,11 +71,11 @@ for network in inv:
              ele = channel.elevation
              sps = channel.sample_rate
              sns = channel.sensor.type
-             print ("{:19.19s} {:19.19s} {:3.3s} {:6.6s} {:40.40s} "
+             print (("{:19.19s} {:19.19s} {:3.3s} {:6.6s} {:40.40s} "
                     "{:10.5f} {:11.5f} {:6.1f} {:2.2s} {:4.0f} "
                     "{:50.50s}").format(
                     t0_str, t1_str, net, sta, sta_long, lat, lon, ele,
-                    cha[0:2], sps, sns)
+                    cha[0:2], sps, sns))
 
-print "-"*180, "\n"
+print ("-"*180, "\n")
 

@@ -17,7 +17,7 @@
 
 from obspy import read_inventory, UTCDateTime
 import sys
-import string
+#import string
 import dateutil.parser
 import glob
 
@@ -27,7 +27,7 @@ if (len(sys.argv)) > 1:
     try: 
         datetime = dateutil.parser.parse(sys.argv[1])
     except:
-        print "Datetime could not be parsed. Using current date and time"
+        print("Datetime could not be parsed. Using current date and time")
         datetime = UTCDateTime.now()
 else:
     datetime = UTCDateTime.now()
@@ -39,12 +39,12 @@ if not inv_dir:
 
 datetime_str = datetime.isoformat()
 
-print "\nState of the inventory at {:s} UTC\n".format(datetime_str)
-print ('{:3.3s} {:6.6s} {:40.40s} {:^10.10s} {:^11.11s} {:^6.6s} '
+print("\nState of the inventory at {:s} UTC\n".format(datetime_str))
+print(('{:3.3s} {:6.6s} {:40.40s} {:^10.10s} {:^11.11s} {:^6.6s} '
        '{:2.2s} {:>4.4s} {:50.50s}').format(
        "net", "sta", "description", "lat", "lon",
-       "elev", "ch", "sps", "instrumentation")
-print "-"*140
+       "elev", "ch", "sps", "instrumentation"))
+print("-"*140)
 
 
 for f in inv_dir:
@@ -59,8 +59,10 @@ for f in inv_dir:
              for item in items:
                  if item[0]=="stations":
                      sta_long=item[1][0]
-                     i0 = string.find(sta_long,"(") + 1
-                     i1 = string.rfind(sta_long,")")
+#                     i0 = string.find(sta_long,"(") + 1
+                     i0 = sta_long.find("(")
+#                     i1 = string.rfind(sta_long,")")
+                     i1 = sta_long.rfind(")")
                      sta_long=sta_long[i0:i1]
              for channel in station:
                  net = network.code
@@ -71,14 +73,10 @@ for f in inv_dir:
                  ele = channel.elevation
                  sps = channel.sample_rate
                  sns = channel.sensor.type
-                 print ("{:3.3s} {:6.6s} {:40.40s} {:10.5f} {:11.5f} "
+                 print(("{:3.3s} {:6.6s} {:40.40s} {:10.5f} {:11.5f} "
                         "{:6.1f} {:2.2s} {:4.0f} {:50.50s}").format(
                         net, sta, sta_long, lat, lon, ele,
-                        cha[0:2], sps, sns)
+                        cha[0:2], sps, sns))
 
-print "-"*140, "\n"
-
-
-
-
+print("-"*140, "\n")
 

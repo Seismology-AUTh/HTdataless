@@ -1,3 +1,17 @@
+v1.2.3 2022-02-15
+
+- Added temporary stations around Florina:
+
+FNA1 FNA2 FNA3 FNA4 FNA5
+
+v1.2.2 2021-12-02
+
+- Digitizer changes in PAIG
+
+v1.2.1 2021-11-08
+
+- Seismometer change in DRAG
+
 v1.2 2021-07-20
 
 - Added temporary stations around Tyrnavos:

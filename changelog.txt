@@ -1,3 +1,7 @@
+v1.2.5 2022-06-09
+
+- Set end date for station LRSO
+
 v1.2.4 2022-04-12
 
 - Digitizer changes in THT1

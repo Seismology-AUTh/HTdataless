@@ -1,3 +1,7 @@
+v1.2.6 2022-06-11
+
+- Correct errors in KNT
+
 v1.2.5 2022-06-09
 
 - Set end date for station LRSO

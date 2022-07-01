@@ -1,3 +1,7 @@
+v1.2.7 2022-07-01
+
+- Set end dates for stations FNA1-FNA5
+
 v1.2.6 2022-06-11
 
 - Correct errors in KNT

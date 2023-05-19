@@ -1,3 +1,7 @@
+v1.2.9 2023-05-19
+
+- Added station AKRO
+
 v1.2.8 2023-01-16
 
 - Added station FLNA

@@ -1,3 +1,7 @@
+v1.2.10 2023-08-29
+
+- Added an epoch to SIGR
+
 v1.2.9 2023-05-19
 
 - Added station AKRO

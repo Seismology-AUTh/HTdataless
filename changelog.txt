@@ -1,3 +1,7 @@
+v1.2.12 2023-11-10
+
+- Added stations STRF, ACHL, ITHC
+
 v1.2.11 2023-11-08
 
 - Added station LES3

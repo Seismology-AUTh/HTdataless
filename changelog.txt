@@ -1,3 +1,7 @@
+v1.2.13 2023-01-12
+
+- Digitizer change in SRS
+
 v1.2.12 2023-11-10
 
 - Added stations STRF, ACHL, ITHC

@@ -1,4 +1,8 @@
-v1.2.13 2023-01-12
+v1.2.14 2024-03-12
+
+- Corrected history of DRAG
+
+v1.2.13 2023-12-01
 
 - Digitizer change in SRS
 

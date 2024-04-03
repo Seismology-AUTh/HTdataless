@@ -1,3 +1,7 @@
+v1.2.19 2024-04-03
+
+- Corrected channel HHN of KAVA
+
 v1.2.18 2024-03-29
 
 - Corrected start time for ACHL

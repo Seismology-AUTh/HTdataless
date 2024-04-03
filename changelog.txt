@@ -1,3 +1,7 @@
+v1.2.20 2024-04-04
+
+- Corrected details of ITHC
+
 v1.2.19 2024-04-03
 
 - Corrected channel HHN of KAVA

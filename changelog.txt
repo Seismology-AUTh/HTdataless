@@ -1,4 +1,8 @@
-V1.2.21 2024-04-05
+V1.2.23 2024-04-08
+
+- Corrected station end date for SANT
+
+V1.2.22 2024-04-05
 
 - Added instrument S/Ns to SANT
 

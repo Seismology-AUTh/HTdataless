@@ -1,3 +1,7 @@
+v1.2.25 2024-04-24
+
+- Corrected start date for AKRO
+
 v1.2.24 2024-04-19
 
 - Corrected epoch end dates for SANT

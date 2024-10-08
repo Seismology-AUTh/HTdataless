@@ -1,3 +1,7 @@
+v1.2.31 2024-10-09
+
+- Equipment changes in IGT
+
 v1.2.30 2024-10-03
 
 - Added epochs to STRF

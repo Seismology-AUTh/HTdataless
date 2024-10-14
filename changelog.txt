@@ -1,3 +1,7 @@
+v1.2.32 2024-10-14
+
+- Removed one epoch from IGT
+
 v1.2.31 2024-10-09
 
 - Equipment changes in IGT

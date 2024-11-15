@@ -1,3 +1,7 @@
+v1.2.33 2024-11-15
+
+- Corrected sensitivity for GRG
+
 v1.2.32 2024-10-14
 
 - Removed one epoch from IGT

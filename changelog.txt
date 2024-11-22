@@ -1,3 +1,7 @@
+v1.2.34 2024-11-22
+
+- Closed epoch for KTI
+
 v1.2.33 2024-11-15
 
 - Corrected sensitivity for GRG

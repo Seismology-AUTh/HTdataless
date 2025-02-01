@@ -1,3 +1,8 @@
+v1.2.36 2025-02-01
+
+- New epoch for SOH
+- Corrected coordinates for SOH
+
 v1.2.35 2025-01-30
 
 - Corrected response for HMT1

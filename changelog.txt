@@ -1,3 +1,7 @@
+v1.2.38 2025-02-05
+
+- Corrected response for AMPK
+
 v1.2.37 2025-02-03
 
 - Added new station ANYD

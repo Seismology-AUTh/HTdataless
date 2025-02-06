@@ -1,3 +1,8 @@
+v1.2.39 2025-02-06
+
+- New epoch for THR8
+- Added THR8 to the EIDA directory
+
 v1.2.38 2025-02-05
 
 - Corrected response for AMPK

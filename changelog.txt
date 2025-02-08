@@ -1,3 +1,7 @@
+v1.2.40 2025-02-08
+
+- New station GVRL
+
 v1.2.39 2025-02-06
 
 - New epoch for THR8

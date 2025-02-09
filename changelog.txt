@@ -1,3 +1,8 @@
+v1.2.42 2025-02-09
+
+- New epoch for THR3
+- Added THR3 to the EIDA directory
+
 v1.2.41 2025-02-09
 
 - New epoch for THR5

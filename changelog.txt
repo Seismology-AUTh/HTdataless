@@ -1,3 +1,8 @@
+v1.2.41 2025-02-09
+
+- New epoch for THR5
+- Added THR5 to the EIDA directory
+
 v1.2.40 2025-02-08
 
 - New station GVRL

@@ -1,3 +1,7 @@
+v1.2.44 2025-03-07
+
+- New epoch for IGT
+
 v1.2.43 2025-02-27
 
 - Added station CHRI

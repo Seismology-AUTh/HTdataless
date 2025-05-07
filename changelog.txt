@@ -1,3 +1,7 @@
+v1.2.45 2025-05-07
+
+- New epoch for GRG
+
 v1.2.44 2025-03-07
 
 - New epoch for IGT

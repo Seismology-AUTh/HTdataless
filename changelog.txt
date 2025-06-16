@@ -1,3 +1,7 @@
+v1.2.46 2025-06-16
+
+- RTZL and PSDA changes and history
+
 v1.2.45 2025-05-07
 
 - New epoch for GRG

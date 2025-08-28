@@ -1,3 +1,7 @@
+v1.2.48 2025-08-28
+
+- Fixed history of NYDR
+
 v1.2.47 2025-08-25
 
 - Fixed history of DRAG

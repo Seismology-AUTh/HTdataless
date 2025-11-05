@@ -1,3 +1,8 @@
+v1.2.50 2025-11-05
+
+- Digitizer change in PAIG
+- Digitizer changes in ALN
+
 v1.2.49 2025-09-08
 
 - Closed epochs for THT1

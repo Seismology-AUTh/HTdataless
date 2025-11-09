@@ -1,3 +1,7 @@
+v1.2.51 2025-11-09
+
+- Fixed typo in start date of NYDR
+
 v1.2.50 2025-11-05
 
 - Digitizer change in PAIG

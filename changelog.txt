@@ -1,3 +1,7 @@
+v1.2.52 2026-01-09
+
+- Added SN in the last epoch of CMBO
+
 v1.2.51 2025-11-09
 
 - Fixed typo in start date of NYDR

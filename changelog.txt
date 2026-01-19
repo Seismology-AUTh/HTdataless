@@ -1,3 +1,7 @@
+v1.2.53 2026-01-19
+
+- Fixed issue with Centaur/Taurus response
+
 v1.2.52 2026-01-09
 
 - Added SN in the last epoch of CMBO

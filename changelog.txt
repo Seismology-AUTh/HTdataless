@@ -1,3 +1,7 @@
+v1.2.54 2026-02-06
+
+- New epoch for KRND
+
 v1.2.53 2026-01-19
 
 - Fixed issue with Centaur/Taurus response

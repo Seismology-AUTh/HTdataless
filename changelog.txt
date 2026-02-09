@@ -1,3 +1,7 @@
+v1.2.55 2026-02-09
+
+- Fixed history of KOKK
+
 v1.2.54 2026-02-06
 
 - New epoch for KRND

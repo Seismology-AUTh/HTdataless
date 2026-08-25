@@ -1,3 +1,14 @@
+v1.3.0 2026-08-25
+
+- Corrected azimuths of stations:
+ALN, KOKK, KAVA, PAIG, SRS, IGT, KPRO, NEST, FLNA, GRG, KNT, LIT, TYRN
+- Corrected coordinates of stations:
+ALN, SRS, IGT, KNT, LIT
+- Corrected elevations of stations:
+KAVA, PAIG, KPRO, NEST
+- Corrected depth of station:
+KOKK
+
 v1.2.56 2026-02-10
 
 - Added missing sensitivity in ALN 2016
